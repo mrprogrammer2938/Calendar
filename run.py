@@ -60,7 +60,7 @@ def main():
 def start_time():
     os.system("clear")
     run_1 = datetime.datetime.now()
-    print(run_1)
+    print("Date: " + str(run_1))
     try1()
 def start_date():
     os.system("clear")
